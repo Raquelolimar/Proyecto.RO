@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    font-family: "Roboto" , sans-serif;
+    background-color: #332F2C;
+}
+
+.navigation-wrapper {
+    color: rgb(250, 249, 249);
+    display: flex;
+    font-family: "Ubuntu Condensed" , sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+.left-column img {
+       
+    margin-right: 100%;
+    font-size: 100%;
+    max-width: 300px;
+    float: left;
+
+}
+
+.center-column {
+    display: flex;
+    grid-template-columns: 1fr;
+
+    justify-content:space-around;
+    align-items: center;
+    margin-right: 10px;
+
+}
+ 
+.top-heading {
+    display: flex ;
+    margin-bottom: 80px;
+    
+    color: #cea135;
+    
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+.bottom-heading {
+    display: flex;
+    margin-right: 100%;
+    justify-content: space-around;
+    align-items:  start;
+    height: 100px;
+    width: 8px;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    
+}
+
+.bottom-heading p {
+    color: white;
+    transition: 0,5s;
+    
+}
+
+.bottom-heading p:hover {
+    color:#cea135;
+    letter-spacing: 2px;
+}
+
+.Spark {
+    display: flex;
+    margin-right: 0px;
+    
+}
+.icon1 {
+
+    margin-left: 30px;
+
+}
+
+.p1 {
+    padding: 15px;
+} 
+.p1 {
+    padding: 15px;
+}
+.right-column {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+  padding-left: 20px;
+  
+}
+
+.Create {
+    display: flex;
+    margin-right: 50px;
+}
+
+.Create i {
+    color: green;
+    letter-spacing: 20px;
+}
+
+.cerrar  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+
+.button {
+    margin-right: 80px;
+    margin-left: 20px;
+}
+
+
+
+
+
